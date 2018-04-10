@@ -13,9 +13,11 @@ File liri.js can take in one of the following commands:
 
 ### What Each Command Should Do
 
- `node liri.js my-tweets`
+`node liri.js my-tweets`
 
-   * This will show your last 20 tweets and when they were created at in your terminal/bash window.
+  * This will show your last 20 tweets and when they were created at in your terminal/bash window.
+
+  * Use Twitter - https://www.npmjs.com/package/twitter
 
 ************************************************************
 
@@ -33,7 +35,7 @@ File liri.js can take in one of the following commands:
 
    * If no song is provided then your program will default to "The Sign" by Ace of Base.
    
-   * You will utilize the [node-spotify-api](https://www.npmjs.com/package/node-spotify-api) package in order to retrieve song information from the Spotify API.
+   * utilize the [node-spotify-api](https://www.npmjs.com/package/node-spotify-api) package in order to retrieve song information from the Spotify API.
    
 ***************************************************************
    
@@ -53,6 +55,8 @@ File liri.js can take in one of the following commands:
      ```
 
    * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
+
+   * Use the request package to retrieve data from the OMDB API
 ****************************************************************
 
 `node liri.js do-what-it-says`
@@ -61,5 +65,8 @@ File liri.js can take in one of the following commands:
      
      * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
      
-     * Feel free to change the text in that document to test out the feature for other commands.
 ****************************************************************
+
+* log the data to your terminal/bash window, output the data to a .txt file called `log.txt`.
+
+* Make sure you append each command you run to the `log.txt` file. 
