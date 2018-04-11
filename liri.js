@@ -158,7 +158,7 @@ function spotifyInfo() {
 // ************************** Twitter **************************
 // Twitter api call and retun 20 tweets
 function tweets() {
-    
+
     var params = {
         screen_name: 'pmactavish13',
         count: 20
@@ -169,20 +169,45 @@ function tweets() {
             console.log(logTweetHeader)
             fs.appendFile("log.txt", logTweetHeader + "\n", function (err) {
                 if (err) {
-                    return console.log(err);
+                    return console.log("Twitter header was not appended to the log.txt file.");
                 }
             });
             for (i = 0; i < tweets.length; i++) {
                 var logTweets = i + 1 + ". Tweet: " + tweets[i].text + "\n    Created: " + tweets[i].created_at;
-                console.log(logTweets)
+                console.log(logTweets);
                 // add tweets to log.txt file
                 fs.appendFile("log.txt", logTweets + "\n********************************************************************************\n", function (err) {
                     if (err) {
-                        return console.log(err);
-                    }
+                        return console.log("Twitter data was not appended to the log.txt file.");
+                    };
                 });
                 console.log("********************************************************************************");
             };
+        };
+    });
+};
+
+// *********************** Do-What-It-Says **************************
+// Read random.txt file and use the data to perform an action 
+function doIt() {
+    fs.readFile("random.txt", "utf8", function (err, data) {
+        if (err) {
+            var logDoIt = ("\n************************** Do-What-It-Says *****************************\nThere was a problem reading the random.txt file. Please try again.\n********************************************************************************");
+            return console.log(logDoIt);
+            fs.appendFile("log.txt", logDoIt, function (err) {
+                if (err) {
+                    return console.log("do-what-it-says data was not appended to the log.txt file.");
+                };
+            });
+        };
+
+        var output = data.split(",");
+        action = output[0];
+        process.argv[3] = output[1];
+        title = process.argv[3];
+
+        if (action === 'spotify-this-song') {
+            spotifyTitle();
         };
     });
 };
