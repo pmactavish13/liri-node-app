@@ -12,7 +12,7 @@ var spotify = new Spotify(keys.spotify);
 var client = new Twitter(keys.twitter);
 
 // collect arguments entered into terminal
-var infoEntered = process.argv
+var infoEntered = process.argv;
 var action = process.argv[2];
 
 // make data after action (title or song name) into a string
@@ -50,3 +50,67 @@ switch (action) {
             };
         });
 };
+
+// *********************** Movie ***************************
+// what to do if no movie title specified, splits given title into IMDBapi syntax
+function movie() {
+    if (process.argv[3] === undefined) {
+        title = "Mr.+Nobody";
+        movieInfo();
+    } else if (title !== undefined) {
+        titleSplit = title.split(" ");
+        title = titleSplit.join("+");
+        movieInfo();
+    };
+};
+
+// contact OMDBapi for movie info
+function movieInfo() {
+    var queryURL = "http://www.omdbapi.com/?t=" + title + "&y=&plot=short&apikey=trilogy";
+
+    request(queryURL, function (error, response, body) {
+
+        if (!error && response.statusCode === 200) {
+            if (body) {
+                var data = JSON.parse(body);
+                if (data.Error == 'Movie not found!') {
+                    var logNoMovies = "********************************** MOVIE THIS **********************************\nOMDB could not find any movies that matched that title.  Please try again.\n********************************************************************************\n";
+                    console.log(logNoMovies);
+                    fs.appendFile("log.txt", logNoMovies, function (err) {
+                        if (err) {
+                            return console.log("No movie by that title data did not append to log.txt file.");
+                        };
+                    });
+                } else if (data.Ratings.length < 2) {
+                    var logMovies = "********************************** MOVIE THIS **********************************\nTitle: " + data.Title + "\nRelease Year: " + data.Year + "\nIMDB Rating: " + data.imdbRating + "\nRotten Tomatoes Rating: No Rotten Tomatoes Rating\nCountry movie produced in: " + data.Country + "\nLanguage: " + data.Language + "\nPlot: " + data.Plot + "\nActors: " + data.Actors + "\n********************************************************************************\n";
+                    console.log(logMovies);
+                    fs.appendFile("log.txt", logMovies, function (err) {
+                        if (err) {
+                            return console.log("Movie data did not append to log.txt file.");
+                        };
+                    });
+                    return
+                } else if (data.Ratings[1].Value !== undefined) {
+                    var logMovies = "********************************** MOVIE THIS **********************************\nTitle: " + data.Title + "\nRelease Year: " + data.Year + "\nIMDB Rating: " + data.imdbRating + "\nRotten Tomatoes Rating: " + data.Ratings[1].Value + "\nCountry movie produced in: " + data.Country + "\nLanguage: " + data.Language + "\nPlot: " + data.Plot + "\nActors: " + data.Actors + "\n********************************************************************************\n";
+                    console.log(logMovies);
+                    fs.appendFile("log.txt", logMovies, function (err) {
+                        if (err) {
+                            return console.log("Movie data did not append to log.txt file.");
+                        };
+                    });
+                };
+            };
+        };
+        if (error) {
+            var logMovieError = "OMDBapi response error. Please try again.\n"
+            console.log(logMovieError)
+            fs.appendFile("log.txt", logMovieError, function (err) {
+                if (err) {
+                    return console.log("OMDBapi response error message did not append to log.txt file.");
+                };
+            });
+        };
+
+    });
+}
+
