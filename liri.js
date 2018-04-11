@@ -114,3 +114,43 @@ function movieInfo() {
     });
 }
 
+// ***************************** Spotify *************************
+// What to do if no title entered or if title splits into spotify syntax
+function spotifyTitle() {
+    if (process.argv[3] === undefined) {
+        title = "The%20Sign%20Ace%20of%20Base";
+        spotifyInfo();
+    } else if (title !== undefined) {
+        titleSplit = title.split(" ");
+        title = titleSplit.join("%20");
+        spotifyInfo();
+    };
+};
+
+// Spotify api call and return info
+function spotifyInfo() {
+    spotify.search({
+        type: 'track',
+        query: title,
+        limit: 1,
+    }, function (err, data) {
+        if (data) {
+            var info = data.tracks.items
+            var logSpotify = "****************************** SPOTIFY THIS SONG *******************************\nArtist: " + info[0].artists[0].name + "\nSong title: " + info[0].name + "\nAlbum name: " + info[0].album.name + "\nURL Preview: " + info[0].preview_url + "\n********************************************************************************\n";
+            console.log(logSpotify)
+            fs.appendFile("log.txt", logSpotify, function (err) {
+                if (err) {
+                    return console.log("Spotify song data was not appended to the log.txt file.");
+                };
+            });
+        } else if (err) {
+            var logNoSpotify = "****************************** SPOTIFY THIS SONG *******************************\nSpotify could not find a song with that title. Please try Again.\n********************************************************************************\n";
+            console.log(logNoSpotify);
+            fs.appendFile("log.txt", logNoSpotify, function (err) {
+                if (err) {
+                    return console.log("Spotify no song data was not appended to the log.txt file.");
+                };
+            });
+        }
+    });
+};
