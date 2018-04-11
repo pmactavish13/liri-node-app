@@ -74,7 +74,7 @@ function movieInfo() {
             if (body) {
                 var data = JSON.parse(body);
                 if (data.Error == 'Movie not found!') {
-                    var logNoMovies = "********************************** MOVIE THIS **********************************\nOMDB could not find any movies that matched that title.  Please try again.\n********************************************************************************\n";
+                    var logNoMovies = "\n********************************** MOVIE THIS **********************************\nOMDB could not find any movies that matched that title.  Please try again.\n********************************************************************************\n";
                     console.log(logNoMovies);
                     fs.appendFile("log.txt", logNoMovies, function (err) {
                         if (err) {
@@ -82,7 +82,7 @@ function movieInfo() {
                         };
                     });
                 } else if (data.Ratings.length < 2) {
-                    var logMovies = "********************************** MOVIE THIS **********************************\nTitle: " + data.Title + "\nRelease Year: " + data.Year + "\nIMDB Rating: " + data.imdbRating + "\nRotten Tomatoes Rating: No Rotten Tomatoes Rating\nCountry movie produced in: " + data.Country + "\nLanguage: " + data.Language + "\nPlot: " + data.Plot + "\nActors: " + data.Actors + "\n********************************************************************************\n";
+                    var logMovies = "\n********************************** MOVIE THIS **********************************\nTitle: " + data.Title + "\nRelease Year: " + data.Year + "\nIMDB Rating: " + data.imdbRating + "\nRotten Tomatoes Rating: No Rotten Tomatoes Rating\nCountry movie produced in: " + data.Country + "\nLanguage: " + data.Language + "\nPlot: " + data.Plot + "\nActors: " + data.Actors + "\n********************************************************************************\n";
                     console.log(logMovies);
                     fs.appendFile("log.txt", logMovies, function (err) {
                         if (err) {
@@ -91,7 +91,7 @@ function movieInfo() {
                     });
                     return
                 } else if (data.Ratings[1].Value !== undefined) {
-                    var logMovies = "********************************** MOVIE THIS **********************************\nTitle: " + data.Title + "\nRelease Year: " + data.Year + "\nIMDB Rating: " + data.imdbRating + "\nRotten Tomatoes Rating: " + data.Ratings[1].Value + "\nCountry movie produced in: " + data.Country + "\nLanguage: " + data.Language + "\nPlot: " + data.Plot + "\nActors: " + data.Actors + "\n********************************************************************************\n";
+                    var logMovies = "\n********************************** MOVIE THIS **********************************\nTitle: " + data.Title + "\nRelease Year: " + data.Year + "\nIMDB Rating: " + data.imdbRating + "\nRotten Tomatoes Rating: " + data.Ratings[1].Value + "\nCountry movie produced in: " + data.Country + "\nLanguage: " + data.Language + "\nPlot: " + data.Plot + "\nActors: " + data.Actors + "\n********************************************************************************\n";
                     console.log(logMovies);
                     fs.appendFile("log.txt", logMovies, function (err) {
                         if (err) {
@@ -136,7 +136,7 @@ function spotifyInfo() {
     }, function (err, data) {
         if (data) {
             var info = data.tracks.items
-            var logSpotify = "****************************** SPOTIFY THIS SONG *******************************\nArtist: " + info[0].artists[0].name + "\nSong title: " + info[0].name + "\nAlbum name: " + info[0].album.name + "\nURL Preview: " + info[0].preview_url + "\n********************************************************************************\n";
+            var logSpotify = "\n****************************** SPOTIFY THIS SONG *******************************\nArtist: " + info[0].artists[0].name + "\nSong title: " + info[0].name + "\nAlbum name: " + info[0].album.name + "\nURL Preview: " + info[0].preview_url + "\n********************************************************************************\n";
             console.log(logSpotify)
             fs.appendFile("log.txt", logSpotify, function (err) {
                 if (err) {
@@ -144,7 +144,7 @@ function spotifyInfo() {
                 };
             });
         } else if (err) {
-            var logNoSpotify = "****************************** SPOTIFY THIS SONG *******************************\nSpotify could not find a song with that title. Please try Again.\n********************************************************************************\n";
+            var logNoSpotify = "\n****************************** SPOTIFY THIS SONG *******************************\nSpotify could not find a song with that title. Please try Again.\n********************************************************************************\n";
             console.log(logNoSpotify);
             fs.appendFile("log.txt", logNoSpotify, function (err) {
                 if (err) {
@@ -152,5 +152,37 @@ function spotifyInfo() {
                 };
             });
         }
+    });
+};
+
+// ************************** Twitter **************************
+// Twitter api call and retun 20 tweets
+function tweets() {
+    
+    var params = {
+        screen_name: 'pmactavish13',
+        count: 20
+    };
+    client.get('statuses/user_timeline', params, function (error, tweets, response) {
+        if (!error) {
+            var logTweetHeader = ("\n********************************** MY TWEETS ***********************************");
+            console.log(logTweetHeader)
+            fs.appendFile("log.txt", logTweetHeader + "\n", function (err) {
+                if (err) {
+                    return console.log(err);
+                }
+            });
+            for (i = 0; i < tweets.length; i++) {
+                var logTweets = i + 1 + ". Tweet: " + tweets[i].text + "\n    Created: " + tweets[i].created_at;
+                console.log(logTweets)
+                // add tweets to log.txt file
+                fs.appendFile("log.txt", logTweets + "\n********************************************************************************\n", function (err) {
+                    if (err) {
+                        return console.log(err);
+                    }
+                });
+                console.log("********************************************************************************");
+            };
+        };
     });
 };
