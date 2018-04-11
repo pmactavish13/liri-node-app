@@ -57,6 +57,7 @@ File liri.js can take in one of the following commands:
    * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
    * Use the request package to retrieve data from the OMDB API
+   
 ****************************************************************
 
 `node liri.js do-what-it-says`
