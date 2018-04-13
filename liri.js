@@ -42,7 +42,7 @@ switch (action) {
         break;
 
     default:
-        var logDefault = "************************ DEFAULT - NO ENTRY *************************\nThis is not a recognized command.\nPlease enter one of the following commands:\n1. To search IMDB for a movie title: node liri.js movie-this <movie title>\n2. To search Spotify for a song title: node liri.js spotify-this-song <song title>\n3. To see the last 20 of my Twitter tweets: node liri.js my-tweets\n4. For a random search: node liri.js do-what-it-says\n*********************************************************************\n";
+        var logDefault = "************************ DEFAULT - NO ENTRY *************************\nThis is not a recognized command.\nPlease enter one of the following commands:\n1. To search OMDB for a movie title: node liri.js movie-this <movie title>\n2. To search Spotify for a song title: node liri.js spotify-this-song <song title>\n3. To see the last 20 of my Twitter tweets: node liri.js my-tweets\n4. For a random search: node liri.js do-what-it-says\n*********************************************************************\n";
         console.log(logDefault);
         fs.appendFile("log.txt", logDefault, function (err) {
             if (err) {
@@ -82,7 +82,13 @@ function movieInfo() {
                         };
                     });
                 } else if (data.Ratings.length < 2) {
-                    var logMovies = "\n********************************** MOVIE THIS **********************************\nTitle: " + data.Title + "\nRelease Year: " + data.Year + "\nIMDB Rating: " + data.imdbRating + "\nRotten Tomatoes Rating: No Rotten Tomatoes Rating\nCountry movie produced in: " + data.Country + "\nLanguage: " + data.Language + "\nPlot: " + data.Plot + "\nActors: " + data.Actors + "\n********************************************************************************\n";
+                    var logMovies = "\n********************************** MOVIE THIS **********************************\nTitle: " + data.Title +
+                        "\nRelease Year: " + data.Year +
+                        "\nIMDB Rating: " + data.imdbRating +
+                        "\nRotten Tomatoes Rating: No Rotten Tomatoes Rating\nCountry movie produced in: " + data.Country +
+                        "\nLanguage: " + data.Language +
+                        "\nPlot: " + data.Plot +
+                        "\nActors: " + data.Actors + "\n********************************************************************************\n";
                     console.log(logMovies);
                     fs.appendFile("log.txt", logMovies, function (err) {
                         if (err) {
@@ -91,7 +97,14 @@ function movieInfo() {
                     });
                     return
                 } else if (data.Ratings[1].Value !== undefined) {
-                    var logMovies = "\n********************************** MOVIE THIS **********************************\nTitle: " + data.Title + "\nRelease Year: " + data.Year + "\nIMDB Rating: " + data.imdbRating + "\nRotten Tomatoes Rating: " + data.Ratings[1].Value + "\nCountry movie produced in: " + data.Country + "\nLanguage: " + data.Language + "\nPlot: " + data.Plot + "\nActors: " + data.Actors + "\n********************************************************************************\n";
+                    var logMovies =
+                        "\n********************************** MOVIE THIS **********************************\nTitle: " + data.Title +
+                        "\nRelease Year: " + data.Year +
+                        "\nIMDB Rating: " + data.imdbRating +
+                        "\nRotten Tomatoes Rating: " + data.Ratings[1].Value +
+                        "\nCountry movie produced in: " + data.Country +
+                        "\nLanguage: " + data.Language + "\nPlot: " + data.Plot +
+                        "\nActors: " + data.Actors + "\n********************************************************************************\n";
                     console.log(logMovies);
                     fs.appendFile("log.txt", logMovies, function (err) {
                         if (err) {
@@ -136,7 +149,12 @@ function spotifyInfo() {
     }, function (err, data) {
         if (data) {
             var info = data.tracks.items
-            var logSpotify = "\n****************************** SPOTIFY THIS SONG *******************************\nArtist: " + info[0].artists[0].name + "\nSong title: " + info[0].name + "\nAlbum name: " + info[0].album.name + "\nURL Preview: " + info[0].preview_url + "\n********************************************************************************\n";
+            var logSpotify =
+                "\n****************************** SPOTIFY THIS SONG *******************************\nArtist: " + info[0].artists[0].name +
+                "\nSong title: " + info[0].name +
+                "\nAlbum name: " + info[0].album.name +
+                "\nURL Preview: " + info[0].preview_url +
+                "\n********************************************************************************\n";
             console.log(logSpotify)
             fs.appendFile("log.txt", logSpotify, function (err) {
                 if (err) {
@@ -144,14 +162,15 @@ function spotifyInfo() {
                 };
             });
         } else if (err) {
-            var logNoSpotify = "\n****************************** SPOTIFY THIS SONG *******************************\nSpotify could not find a song with that title. Please try Again.\n********************************************************************************\n";
+            var logNoSpotify =
+                "\n****************************** SPOTIFY THIS SONG *******************************\nSpotify could not find a song with that title. Please try Again.\n********************************************************************************\n";
             console.log(logNoSpotify);
             fs.appendFile("log.txt", logNoSpotify, function (err) {
                 if (err) {
-                    return console.log("Spotify no song data was not appended to the log.txt file.");
+                    return console.log("Spotify no song data found was not appended to the log.txt file.");
                 };
             });
-        }
+        };
     });
 };
 

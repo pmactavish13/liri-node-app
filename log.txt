@@ -1,4 +1,13 @@
-*********************** MOVIE THIS ********************************
+************************ DEFAULT - NO ENTRY *************************
+This is not a recognized command.
+Please enter one of the following commands:
+1. To search OMDB for a movie title: node liri.js movie-this <movie title>
+2. To search Spotify for a song title: node liri.js spotify-this-song <song title>
+3. To see the last 20 of my Twitter tweets: node liri.js my-tweets
+4. For a random search: node liri.js do-what-it-says
+*********************************************************************
+
+********************************** MOVIE THIS **********************************
 Title: Mr. Nobody
 Release Year: 2009
 IMDB Rating: 7.9
@@ -7,8 +16,13 @@ Country movie produced in: Belgium, Germany, Canada, France, USA, UK
 Language: English, Mohawk
 Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
 Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
-*******************************************************************
-*********************** MOVIE THIS ********************************
+********************************************************************************
+
+********************************** MOVIE THIS **********************************
+OMDB could not find any movies that matched that title.  Please try again.
+********************************************************************************
+
+********************************** MOVIE THIS **********************************
 Title: Fried Green Tomatoes
 Release Year: 1991
 IMDB Rating: 7.7
@@ -17,187 +31,8 @@ Country movie produced in: USA
 Language: English
 Plot: A housewife who is unhappy with her life befriends an old lady in a nursing home and is enthralled by the tales she tells of people she used to know.
 Actors: Kathy Bates, Mary Stuart Masterson, Mary-Louise Parker, Jessica Tandy
-*******************************************************************
-**************************** MOVIE THIS *************************************
-Title: Mr. Nobody
-Release Year: 2009
-IMDB Rating: 7.9
-Rotten Tomatoes Rating: 66%
-Country movie produced in: Belgium, Germany, Canada, France, USA, UK
-Language: English, Mohawk
-Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
-Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
-*****************************************************************************
-**************************** MOVIE THIS *************************************
-Title: Mr. Nobody
-Release Year: 2009
-IMDB Rating: 7.9
-Rotten Tomatoes Rating: 66%
-Country movie produced in: Belgium, Germany, Canada, France, USA, UK
-Language: English, Mohawk
-Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
-Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
-*****************************************************************************
-**************************** MOVIE THIS *************************************
-Title: Rogue One: A Star Wars Story
-Release Year: 2016
-IMDB Rating: 7.8
-Rotten Tomatoes Rating: 85%
-Country movie produced in: USA
-Language: English
-Plot: The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans.
-Actors: Felicity Jones, Diego Luna, Alan Tudyk, Donnie Yen
-*****************************************************************************
-**************************** MOVIE THIS *************************************
-Title: Return of the Jedi 30th Anniversary Celebration at the Egyptian Theatre
-Release Year: 2013
-IMDB Rating: N/A
-Rotten Tomatoes Rating: No Rotten Tomatoes Rating
-Country movie produced in: USA
-Language: N/A
-Plot: N/A
-Actors: Scott Allen, Michael Bender, Seth Green, Mark Hamil
-*****************************************************************************
-**************************** MOVIE THIS *************************************
-Title: Carrots
-Release Year: 1979–
-IMDB Rating: 5.7
-Rotten Tomatoes Rating: No Rotten Tomatoes Rating
-Country movie produced in: Australia
-Language: English
-Plot: Children's show within a show about a kid's show presented by a rabbit!
-Actors: James Condon, Sheila Kennelly, Brendon Lunney, Greg Bepper
-*****************************************************************************
-**************************** MOVIE THIS *************************************
-OMDB could not find any movies that matched that title.  Please try again.
-*****************************************************************************
-**************************** MOVIE THIS *************************************
-Title: Cars
-Release Year: 2006
-IMDB Rating: 7.2
-Rotten Tomatoes Rating: 74%
-Country movie produced in: USA
-Language: English, Italian, Japanese, Yiddish
-Plot: A hot-shot race-car named Lightning McQueen gets waylaid in Radiator Springs, where he finds the true meaning of friendship and family.
-Actors: Owen Wilson, Paul Newman, Bonnie Hunt, Larry the Cable Guy
-*****************************************************************************
-**************************** MOVIE THIS *************************************
-Title: Fried Green Tomatoes
-Release Year: 1991
-IMDB Rating: 7.7
-Rotten Tomatoes Rating: 73%
-Country movie produced in: USA
-Language: English
-Plot: A housewife who is unhappy with her life befriends an old lady in a nursing home and is enthralled by the tales she tells of people she used to know.
-Actors: Kathy Bates, Mary Stuart Masterson, Mary-Louise Parker, Jessica Tandy
-*****************************************************************************
-**************************** MOVIE THIS *************************************
-Title: Casablanca
-Release Year: 1942
-IMDB Rating: 8.5
-Rotten Tomatoes Rating: 97%
-Country movie produced in: USA
-Language: English, French, German, Italian
-Plot: A cynical nightclub owner protects an old flame and her husband from Nazis in Morocco.
-Actors: Humphrey Bogart, Ingrid Bergman, Paul Henreid, Claude Rains
-*****************************************************************************
-**************************** MOVIE THIS *************************************
-Title: Revenge of the Nerds
-Release Year: 1984
-IMDB Rating: 6.6
-Rotten Tomatoes Rating: 70%
-Country movie produced in: USA
-Language: English
-Plot: At Adams College, a group of bullied outcasts and misfits resolve to fight back for their peace and self-respect.
-Actors: Robert Carradine, Anthony Edwards, Timothy Busfield, Andrew Cassese
-*****************************************************************************
-**************************** MOVIE THIS *************************************
-OMDB could not find any movies that matched that title.  Please try again.
-*****************************************************************************
-**************************** MOVIE THIS *************************************
-OMDB could not find any movies that matched that title.  Please try again.
-*****************************************************************************
-**************************** MOVIE THIS *************************************
-OMDB could not find any movies that matched that title.  Please try again.
-*****************************************************************************
-**************************** MOVIE THIS *************************************
-Title: Return of the Jedi 30th Anniversary Celebration at the Egyptian Theatre
-Release Year: 2013
-IMDB Rating: N/A
-Rotten Tomatoes Rating: No Rotten Tomatoes Rating
-Country movie produced in: USA
-Language: N/A
-Plot: N/A
-Actors: Scott Allen, Michael Bender, Seth Green, Mark Hamil
-*****************************************************************************
-**************************** MOVIE THIS *************************************
-Title: Rogue One: A Star Wars Story
-Release Year: 2016
-IMDB Rating: 7.8
-Rotten Tomatoes Rating: 85%
-Country movie produced in: USA
-Language: English
-Plot: The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans.
-Actors: Felicity Jones, Diego Luna, Alan Tudyk, Donnie Yen
-*****************************************************************************
-**************************** MOVIE THIS *************************************
-OMDB could not find any movies that matched that title.  Please try again.
-*****************************************************************************
-**************************** MOVIE THIS *************************************
-Title: Star Wars: The Clone Wars
-Release Year: 2008
-IMDB Rating: 5.9
-Rotten Tomatoes Rating: 18%
-Country movie produced in: USA
-Language: English
-Plot: After the Republic's victory on Christophsis, Anakin and his new apprentice Ahsoka Tano must rescue the kidnapped son of Jabba the Hutt. Political intrigue complicates their mission.
-Actors: Matt Lanter, Ashley Eckstein, James Arnold Taylor, Dee Bradley Baker
-*****************************************************************************
-**************************** MOVIE THIS *************************************
-OMDB could not find any movies that matched that title.  Please try again.
-*****************************************************************************
-**************************** MOVIE THIS *************************************
-Title: Big
-Release Year: 1988
-IMDB Rating: 7.3
-Rotten Tomatoes Rating: 97%
-Country movie produced in: USA
-Language: English
-Plot: After wishing to be made big, a teenage boy wakes the next morning to find himself mysteriously in the body of an adult.
-Actors: Tom Hanks, Elizabeth Perkins, Robert Loggia, John Heard
-*****************************************************************************
-**************************** MOVIE THIS *************************************
-Title: Alien
-Release Year: 1979
-IMDB Rating: 8.5
-Rotten Tomatoes Rating: 97%
-Country movie produced in: UK, USA
-Language: English
-Plot: After a space merchant vessel perceives an unknown transmission as a distress call, its landing on the source moon finds one of the crew attacked by a mysterious lifeform, and they soon realize that its life cycle has merely begun.
-Actors: Tom Skerritt, Sigourney Weaver, Veronica Cartwright, Harry Dean Stanton
-*****************************************************************************
-**************************** MOVIE THIS *************************************
-OMDB could not find any movies that matched that title.  Please try again.
-*****************************************************************************
-********************************* MOVIE THIS *************************************
-OMDB could not find any movies that matched that title.  Please try again.
-**********************************************************************************
-********************************** MOVIE THIS **********************************
-OMDB could not find any movies that matched that title.  Please try again.
 ********************************************************************************
-********************************** MOVIE THIS **********************************
-OMDB could not find any movies that matched that title.  Please try again.
-********************************************************************************
-********************************** MOVIE THIS **********************************
-Title: Alien
-Release Year: 1979
-IMDB Rating: 8.5
-Rotten Tomatoes Rating: 97%
-Country movie produced in: UK, USA
-Language: English
-Plot: After a space merchant vessel perceives an unknown transmission as a distress call, its landing on the source moon finds one of the crew attacked by a mysterious lifeform, and they soon realize that its life cycle has merely begun.
-Actors: Tom Skerritt, Sigourney Weaver, Veronica Cartwright, Harry Dean Stanton
-********************************************************************************
+
 ********************************** MOVIE THIS **********************************
 Title: Return of the Jedi 30th Anniversary Celebration at the Egyptian Theatre
 Release Year: 2013
@@ -208,553 +43,94 @@ Language: N/A
 Plot: N/A
 Actors: Scott Allen, Michael Bender, Seth Green, Mark Hamil
 ********************************************************************************
-******************** SPOTIFY THIS SONG ********************
+
+********************************** MY TWEETS ***********************************
+1. Tweet: Prefer to be defeated in the presence of the wise than to excel among fools. ― Dōgen Zenji
+    Created: Mon Apr 09 06:36:52 +0000 2018
+********************************************************************************
+2. Tweet: Have a mind that is open to everything and attached to nothing. ― Tilopa
+    Created: Mon Apr 09 06:35:50 +0000 2018
+********************************************************************************
+3. Tweet: Let go, or be dragged. ― Zen Proverb
+    Created: Mon Apr 09 06:34:16 +0000 2018
+********************************************************************************
+4. Tweet: When the student is ready, the teacher will appear. ― Zen Proverb
+    Created: Mon Apr 09 06:32:35 +0000 2018
+********************************************************************************
+5. Tweet: The purpose of our lives is to be happy. ― Dalai Lama
+    Created: Mon Apr 09 06:31:56 +0000 2018
+********************************************************************************
+6. Tweet: Move and the way will open. ― Zen Proverb
+    Created: Mon Apr 09 06:30:46 +0000 2018
+********************************************************************************
+7. Tweet: Each morning, we are born again. What we do today is what matters most. ― Buddha
+    Created: Mon Apr 09 06:30:29 +0000 2018
+********************************************************************************
+9. Tweet: The trouble is, you think you have time. ― Buddha
+    Created: Mon Apr 09 06:29:52 +0000 2018
+********************************************************************************
+10. Tweet: When you seek it, you cannot find it. ― Zen Proverb
+    Created: Mon Apr 09 06:29:35 +0000 2018
+********************************************************************************
+8. Tweet: To a mind that is still, the whole universe surrenders. ― Chuang Tzu
+    Created: Mon Apr 09 06:30:11 +0000 2018
+********************************************************************************
+11. Tweet: When I let go of what I am, I become what I might be. ― Lao Tzu
+    Created: Mon Apr 09 06:28:57 +0000 2018
+********************************************************************************
+12. Tweet: Act without expectation. - Lao Tzu
+    Created: Mon Apr 09 06:28:48 +0000 2018
+********************************************************************************
+13. Tweet: Be master of mind rather than mastered by mind. ― Zen Proverb
+    Created: Mon Apr 09 06:27:46 +0000 2018
+********************************************************************************
+14. Tweet: All that we are, is the result of what we have thought. The mind is everything. What we think, we become. ― Buddha
+    Created: Mon Apr 09 06:27:25 +0000 2018
+********************************************************************************
+15. Tweet: Don't seek, don't search, don't ask, don't knock, don't demand - relax. ― Osho
+    Created: Mon Apr 09 06:26:56 +0000 2018
+********************************************************************************
+16. Tweet: Life is like stepping onto a boat which is about to sail out to sea and sink. ― Shunryu Suzuki
+    Created: Mon Apr 09 06:26:39 +0000 2018
+********************************************************************************
+17. Tweet: If you are depressed, you are living in the past. If you are anxious, you are living in the future. If you are at p… https://t.co/K00psJ9zgn
+    Created: Mon Apr 09 06:26:18 +0000 2018
+********************************************************************************
+18. Tweet: Those who are awake, live in a state of constant amazement. ― Buddha
+    Created: Mon Apr 09 06:25:24 +0000 2018
+********************************************************************************
+19. Tweet: What was never lost can never be found. ― Zen Proverb
+    Created: Mon Apr 09 06:24:49 +0000 2018
+********************************************************************************
+20. Tweet: Nothing ever goes away until it has taught us what we need to know.
+- Pema Chödrön
+    Created: Mon Apr 09 06:24:02 +0000 2018
+********************************************************************************
+
+****************************** SPOTIFY THIS SONG *******************************
 Artist: Ace of Base
 Song title: The Sign
 Album name: The Sign (US Album) [Remastered]
 URL Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=88304a25695d46129c436ee09b290a09
-***********************************************************
-*************************** SPOTIFY THIS SONG ***************************
-Artist: Ace of Base
-Song title: The Sign
-Album name: The Sign (US Album) [Remastered]
-URL Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=88304a25695d46129c436ee09b290a09
-*************************************************************************
-*************************** SPOTIFY THIS SONG ***************************
-Artist: Ace of Base
-Song title: The Sign
-Album name: The Sign (US Album) [Remastered]
-URL Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=88304a25695d46129c436ee09b290a09
-*************************************************************************
-*************************** SPOTIFY THIS SONG ***************************
-Spotify could not find a song with that title. Please try Again.
-*************************************************************************
-*************************** SPOTIFY THIS SONG ***************************
-Spotify could not find a song with that title. Please try Again.
-*************************************************************************
-****************************** SPOTIFY THIS SONG ******************************
-Spotify could not find a song with that title. Please try Again.
-*******************************************************************************
-****************************** SPOTIFY THIS SONG ******************************
+********************************************************************************
+
+****************************** SPOTIFY THIS SONG *******************************
 Artist: Aerosmith
 Song title: Walk This Way
 Album name: Toys In The Attic
 URL Preview: https://p.scdn.co/mp3-preview/f744fafea7f807dd79503249f4238a21393daf8f?cid=88304a25695d46129c436ee09b290a09
-*******************************************************************************
-****************************** SPOTIFY THIS SONG ******************************
-Artist: Ace of Base
-Song title: The Sign
-Album name: The Sign (US Album) [Remastered]
-URL Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=88304a25695d46129c436ee09b290a09
-*******************************************************************************
-********************************** MOVIE THIS **********************************
-Title: Mr. Nobody
-Release Year: 2009
-IMDB Rating: 7.9
-Rotten Tomatoes Rating: 66%
-Country movie produced in: Belgium, Germany, Canada, France, USA, UK
-Language: English, Mohawk
-Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
-Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
-********************************************************************************
-****************************** SPOTIFY THIS SONG *******************************
-Artist: Ace of Base
-Song title: The Sign
-Album name: The Sign (US Album) [Remastered]
-URL Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=88304a25695d46129c436ee09b290a09
-********************************************************************************
-************************************* MY TWEETS **************************************
-1. Tweet: Prefer to be defeated in the presence of the wise than to excel among fools. ― Dōgen Zenji
-    Created: Mon Apr 09 06:36:52 +0000 2018
-**************************************************************************************
-2. Tweet: Have a mind that is open to everything and attached to nothing. ― Tilopa
-    Created: Mon Apr 09 06:35:50 +0000 2018
-**************************************************************************************
-3. Tweet: Let go, or be dragged. ― Zen Proverb
-    Created: Mon Apr 09 06:34:16 +0000 2018
-**************************************************************************************
-4. Tweet: When the student is ready, the teacher will appear. ― Zen Proverb
-    Created: Mon Apr 09 06:32:35 +0000 2018
-**************************************************************************************
-5. Tweet: The purpose of our lives is to be happy. ― Dalai Lama
-    Created: Mon Apr 09 06:31:56 +0000 2018
-**************************************************************************************
-6. Tweet: Move and the way will open. ― Zen Proverb
-    Created: Mon Apr 09 06:30:46 +0000 2018
-**************************************************************************************
-7. Tweet: Each morning, we are born again. What we do today is what matters most. ― Buddha
-    Created: Mon Apr 09 06:30:29 +0000 2018
-**************************************************************************************
-8. Tweet: To a mind that is still, the whole universe surrenders. ― Chuang Tzu
-    Created: Mon Apr 09 06:30:11 +0000 2018
-**************************************************************************************
-9. Tweet: The trouble is, you think you have time. ― Buddha
-    Created: Mon Apr 09 06:29:52 +0000 2018
-**************************************************************************************
-10. Tweet: When you seek it, you cannot find it. ― Zen Proverb
-    Created: Mon Apr 09 06:29:35 +0000 2018
-**************************************************************************************
-11. Tweet: When I let go of what I am, I become what I might be. ― Lao Tzu
-    Created: Mon Apr 09 06:28:57 +0000 2018
-**************************************************************************************
-12. Tweet: Act without expectation. - Lao Tzu
-    Created: Mon Apr 09 06:28:48 +0000 2018
-**************************************************************************************
-13. Tweet: Be master of mind rather than mastered by mind. ― Zen Proverb
-    Created: Mon Apr 09 06:27:46 +0000 2018
-**************************************************************************************
-14. Tweet: All that we are, is the result of what we have thought. The mind is everything. What we think, we become. ― Buddha
-    Created: Mon Apr 09 06:27:25 +0000 2018
-**************************************************************************************
-15. Tweet: Don't seek, don't search, don't ask, don't knock, don't demand - relax. ― Osho
-    Created: Mon Apr 09 06:26:56 +0000 2018
-**************************************************************************************
-16. Tweet: Life is like stepping onto a boat which is about to sail out to sea and sink. ― Shunryu Suzuki
-    Created: Mon Apr 09 06:26:39 +0000 2018
-**************************************************************************************
-17. Tweet: If you are depressed, you are living in the past. If you are anxious, you are living in the future. If you are at p… https://t.co/K00psJ9zgn
-    Created: Mon Apr 09 06:26:18 +0000 2018
-**************************************************************************************
-18. Tweet: Those who are awake, live in a state of constant amazement. ― Buddha
-    Created: Mon Apr 09 06:25:24 +0000 2018
-**************************************************************************************
-19. Tweet: What was never lost can never be found. ― Zen Proverb
-    Created: Mon Apr 09 06:24:49 +0000 2018
-**************************************************************************************
-20. Tweet: Nothing ever goes away until it has taught us what we need to know.
-- Pema Chödrön
-    Created: Mon Apr 09 06:24:02 +0000 2018
-**************************************************************************************
-*********************************** MY TWEETS ************************************
-1. Tweet: Prefer to be defeated in the presence of the wise than to excel among fools. ― Dōgen Zenji
-    Created: Mon Apr 09 06:36:52 +0000 2018
-**********************************************************************************
-2. Tweet: Have a mind that is open to everything and attached to nothing. ― Tilopa
-    Created: Mon Apr 09 06:35:50 +0000 2018
-**********************************************************************************
-3. Tweet: Let go, or be dragged. ― Zen Proverb
-    Created: Mon Apr 09 06:34:16 +0000 2018
-**********************************************************************************
-4. Tweet: When the student is ready, the teacher will appear. ― Zen Proverb
-    Created: Mon Apr 09 06:32:35 +0000 2018
-**********************************************************************************
-5. Tweet: The purpose of our lives is to be happy. ― Dalai Lama
-    Created: Mon Apr 09 06:31:56 +0000 2018
-**********************************************************************************
-6. Tweet: Move and the way will open. ― Zen Proverb
-    Created: Mon Apr 09 06:30:46 +0000 2018
-**********************************************************************************
-7. Tweet: Each morning, we are born again. What we do today is what matters most. ― Buddha
-    Created: Mon Apr 09 06:30:29 +0000 2018
-**********************************************************************************
-8. Tweet: To a mind that is still, the whole universe surrenders. ― Chuang Tzu
-    Created: Mon Apr 09 06:30:11 +0000 2018
-**********************************************************************************
-9. Tweet: The trouble is, you think you have time. ― Buddha
-    Created: Mon Apr 09 06:29:52 +0000 2018
-**********************************************************************************
-10. Tweet: When you seek it, you cannot find it. ― Zen Proverb
-    Created: Mon Apr 09 06:29:35 +0000 2018
-**********************************************************************************
-11. Tweet: When I let go of what I am, I become what I might be. ― Lao Tzu
-    Created: Mon Apr 09 06:28:57 +0000 2018
-**********************************************************************************
-12. Tweet: Act without expectation. - Lao Tzu
-    Created: Mon Apr 09 06:28:48 +0000 2018
-**********************************************************************************
-13. Tweet: Be master of mind rather than mastered by mind. ― Zen Proverb
-    Created: Mon Apr 09 06:27:46 +0000 2018
-**********************************************************************************
-14. Tweet: All that we are, is the result of what we have thought. The mind is everything. What we think, we become. ― Buddha
-    Created: Mon Apr 09 06:27:25 +0000 2018
-**********************************************************************************
-15. Tweet: Don't seek, don't search, don't ask, don't knock, don't demand - relax. ― Osho
-    Created: Mon Apr 09 06:26:56 +0000 2018
-**********************************************************************************
-16. Tweet: Life is like stepping onto a boat which is about to sail out to sea and sink. ― Shunryu Suzuki
-    Created: Mon Apr 09 06:26:39 +0000 2018
-**********************************************************************************
-17. Tweet: If you are depressed, you are living in the past. If you are anxious, you are living in the future. If you are at p… https://t.co/K00psJ9zgn
-    Created: Mon Apr 09 06:26:18 +0000 2018
-**********************************************************************************
-18. Tweet: Those who are awake, live in a state of constant amazement. ― Buddha
-    Created: Mon Apr 09 06:25:24 +0000 2018
-**********************************************************************************
-19. Tweet: What was never lost can never be found. ― Zen Proverb
-    Created: Mon Apr 09 06:24:49 +0000 2018
-**********************************************************************************
-20. Tweet: Nothing ever goes away until it has taught us what we need to know.
-- Pema Chödrön
-    Created: Mon Apr 09 06:24:02 +0000 2018
-**********************************************************************************
-********************************** MOVIE THIS **********************************
-Title: Mr. Nobody
-Release Year: 2009
-IMDB Rating: 7.9
-Rotten Tomatoes Rating: 66%
-Country movie produced in: Belgium, Germany, Canada, France, USA, UK
-Language: English, Mohawk
-Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
-Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
-********************************************************************************
-********************************** MY TWEETS ***********************************
-1. Tweet: Prefer to be defeated in the presence of the wise than to excel among fools. ― Dōgen Zenji
-    Created: Mon Apr 09 06:36:52 +0000 2018
-********************************************************************************
-2. Tweet: Have a mind that is open to everything and attached to nothing. ― Tilopa
-    Created: Mon Apr 09 06:35:50 +0000 2018
-********************************************************************************
-3. Tweet: Let go, or be dragged. ― Zen Proverb
-    Created: Mon Apr 09 06:34:16 +0000 2018
-********************************************************************************
-4. Tweet: When the student is ready, the teacher will appear. ― Zen Proverb
-    Created: Mon Apr 09 06:32:35 +0000 2018
-********************************************************************************
-5. Tweet: The purpose of our lives is to be happy. ― Dalai Lama
-    Created: Mon Apr 09 06:31:56 +0000 2018
-********************************************************************************
-6. Tweet: Move and the way will open. ― Zen Proverb
-    Created: Mon Apr 09 06:30:46 +0000 2018
-********************************************************************************
-7. Tweet: Each morning, we are born again. What we do today is what matters most. ― Buddha
-    Created: Mon Apr 09 06:30:29 +0000 2018
-********************************************************************************
-8. Tweet: To a mind that is still, the whole universe surrenders. ― Chuang Tzu
-    Created: Mon Apr 09 06:30:11 +0000 2018
-********************************************************************************
-9. Tweet: The trouble is, you think you have time. ― Buddha
-    Created: Mon Apr 09 06:29:52 +0000 2018
-********************************************************************************
-10. Tweet: When you seek it, you cannot find it. ― Zen Proverb
-    Created: Mon Apr 09 06:29:35 +0000 2018
-********************************************************************************
-11. Tweet: When I let go of what I am, I become what I might be. ― Lao Tzu
-    Created: Mon Apr 09 06:28:57 +0000 2018
-********************************************************************************
-12. Tweet: Act without expectation. - Lao Tzu
-    Created: Mon Apr 09 06:28:48 +0000 2018
-********************************************************************************
-13. Tweet: Be master of mind rather than mastered by mind. ― Zen Proverb
-    Created: Mon Apr 09 06:27:46 +0000 2018
-********************************************************************************
-14. Tweet: All that we are, is the result of what we have thought. The mind is everything. What we think, we become. ― Buddha
-    Created: Mon Apr 09 06:27:25 +0000 2018
-********************************************************************************
-15. Tweet: Don't seek, don't search, don't ask, don't knock, don't demand - relax. ― Osho
-    Created: Mon Apr 09 06:26:56 +0000 2018
-********************************************************************************
-16. Tweet: Life is like stepping onto a boat which is about to sail out to sea and sink. ― Shunryu Suzuki
-    Created: Mon Apr 09 06:26:39 +0000 2018
-********************************************************************************
-17. Tweet: If you are depressed, you are living in the past. If you are anxious, you are living in the future. If you are at p… https://t.co/K00psJ9zgn
-    Created: Mon Apr 09 06:26:18 +0000 2018
-********************************************************************************
-18. Tweet: Those who are awake, live in a state of constant amazement. ― Buddha
-    Created: Mon Apr 09 06:25:24 +0000 2018
-********************************************************************************
-19. Tweet: What was never lost can never be found. ― Zen Proverb
-    Created: Mon Apr 09 06:24:49 +0000 2018
-********************************************************************************
-20. Tweet: Nothing ever goes away until it has taught us what we need to know.
-- Pema Chödrön
-    Created: Mon Apr 09 06:24:02 +0000 2018
-********************************************************************************
-********************************** MOVIE THIS **********************************
-Title: Mr. Nobody
-Release Year: 2009
-IMDB Rating: 7.9
-Rotten Tomatoes Rating: 66%
-Country movie produced in: Belgium, Germany, Canada, France, USA, UK
-Language: English, Mohawk
-Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
-Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
-********************************************************************************
-********************************** MY TWEETS ***********************************
-1. Tweet: Prefer to be defeated in the presence of the wise than to excel among fools. ― Dōgen Zenji
-    Created: Mon Apr 09 06:36:52 +0000 2018
-********************************************************************************
-2. Tweet: Have a mind that is open to everything and attached to nothing. ― Tilopa
-    Created: Mon Apr 09 06:35:50 +0000 2018
-********************************************************************************
-3. Tweet: Let go, or be dragged. ― Zen Proverb
-    Created: Mon Apr 09 06:34:16 +0000 2018
-********************************************************************************
-4. Tweet: When the student is ready, the teacher will appear. ― Zen Proverb
-    Created: Mon Apr 09 06:32:35 +0000 2018
-********************************************************************************
-5. Tweet: The purpose of our lives is to be happy. ― Dalai Lama
-    Created: Mon Apr 09 06:31:56 +0000 2018
-********************************************************************************
-6. Tweet: Move and the way will open. ― Zen Proverb
-    Created: Mon Apr 09 06:30:46 +0000 2018
-********************************************************************************
-7. Tweet: Each morning, we are born again. What we do today is what matters most. ― Buddha
-    Created: Mon Apr 09 06:30:29 +0000 2018
-********************************************************************************
-8. Tweet: To a mind that is still, the whole universe surrenders. ― Chuang Tzu
-    Created: Mon Apr 09 06:30:11 +0000 2018
-********************************************************************************
-9. Tweet: The trouble is, you think you have time. ― Buddha
-    Created: Mon Apr 09 06:29:52 +0000 2018
-********************************************************************************
-10. Tweet: When you seek it, you cannot find it. ― Zen Proverb
-    Created: Mon Apr 09 06:29:35 +0000 2018
-********************************************************************************
-11. Tweet: When I let go of what I am, I become what I might be. ― Lao Tzu
-    Created: Mon Apr 09 06:28:57 +0000 2018
-********************************************************************************
-12. Tweet: Act without expectation. - Lao Tzu
-    Created: Mon Apr 09 06:28:48 +0000 2018
-********************************************************************************
-13. Tweet: Be master of mind rather than mastered by mind. ― Zen Proverb
-    Created: Mon Apr 09 06:27:46 +0000 2018
-********************************************************************************
-14. Tweet: All that we are, is the result of what we have thought. The mind is everything. What we think, we become. ― Buddha
-    Created: Mon Apr 09 06:27:25 +0000 2018
-********************************************************************************
-15. Tweet: Don't seek, don't search, don't ask, don't knock, don't demand - relax. ― Osho
-    Created: Mon Apr 09 06:26:56 +0000 2018
-********************************************************************************
-16. Tweet: Life is like stepping onto a boat which is about to sail out to sea and sink. ― Shunryu Suzuki
-    Created: Mon Apr 09 06:26:39 +0000 2018
-********************************************************************************
-17. Tweet: If you are depressed, you are living in the past. If you are anxious, you are living in the future. If you are at p… https://t.co/K00psJ9zgn
-    Created: Mon Apr 09 06:26:18 +0000 2018
-********************************************************************************
-18. Tweet: Those who are awake, live in a state of constant amazement. ― Buddha
-    Created: Mon Apr 09 06:25:24 +0000 2018
-********************************************************************************
-19. Tweet: What was never lost can never be found. ― Zen Proverb
-    Created: Mon Apr 09 06:24:49 +0000 2018
-********************************************************************************
-20. Tweet: Nothing ever goes away until it has taught us what we need to know.
-- Pema Chödrön
-    Created: Mon Apr 09 06:24:02 +0000 2018
 ********************************************************************************
 
-********************************** MY TWEETS ***********************************
-1. Tweet: Prefer to be defeated in the presence of the wise than to excel among fools. ― Dōgen Zenji
-    Created: Mon Apr 09 06:36:52 +0000 2018
-********************************************************************************
-2. Tweet: Have a mind that is open to everything and attached to nothing. ― Tilopa
-    Created: Mon Apr 09 06:35:50 +0000 2018
-********************************************************************************
-3. Tweet: Let go, or be dragged. ― Zen Proverb
-    Created: Mon Apr 09 06:34:16 +0000 2018
-********************************************************************************
-4. Tweet: When the student is ready, the teacher will appear. ― Zen Proverb
-    Created: Mon Apr 09 06:32:35 +0000 2018
-********************************************************************************
-5. Tweet: The purpose of our lives is to be happy. ― Dalai Lama
-    Created: Mon Apr 09 06:31:56 +0000 2018
-********************************************************************************
-6. Tweet: Move and the way will open. ― Zen Proverb
-    Created: Mon Apr 09 06:30:46 +0000 2018
-********************************************************************************
-7. Tweet: Each morning, we are born again. What we do today is what matters most. ― Buddha
-    Created: Mon Apr 09 06:30:29 +0000 2018
-********************************************************************************
-8. Tweet: To a mind that is still, the whole universe surrenders. ― Chuang Tzu
-    Created: Mon Apr 09 06:30:11 +0000 2018
-********************************************************************************
-9. Tweet: The trouble is, you think you have time. ― Buddha
-    Created: Mon Apr 09 06:29:52 +0000 2018
-********************************************************************************
-10. Tweet: When you seek it, you cannot find it. ― Zen Proverb
-    Created: Mon Apr 09 06:29:35 +0000 2018
-********************************************************************************
-11. Tweet: When I let go of what I am, I become what I might be. ― Lao Tzu
-    Created: Mon Apr 09 06:28:57 +0000 2018
-********************************************************************************
-12. Tweet: Act without expectation. - Lao Tzu
-    Created: Mon Apr 09 06:28:48 +0000 2018
-********************************************************************************
-13. Tweet: Be master of mind rather than mastered by mind. ― Zen Proverb
-    Created: Mon Apr 09 06:27:46 +0000 2018
-********************************************************************************
-14. Tweet: All that we are, is the result of what we have thought. The mind is everything. What we think, we become. ― Buddha
-    Created: Mon Apr 09 06:27:25 +0000 2018
-********************************************************************************
-15. Tweet: Don't seek, don't search, don't ask, don't knock, don't demand - relax. ― Osho
-    Created: Mon Apr 09 06:26:56 +0000 2018
-********************************************************************************
-16. Tweet: Life is like stepping onto a boat which is about to sail out to sea and sink. ― Shunryu Suzuki
-    Created: Mon Apr 09 06:26:39 +0000 2018
-********************************************************************************
-17. Tweet: If you are depressed, you are living in the past. If you are anxious, you are living in the future. If you are at p… https://t.co/K00psJ9zgn
-    Created: Mon Apr 09 06:26:18 +0000 2018
-********************************************************************************
-18. Tweet: Those who are awake, live in a state of constant amazement. ― Buddha
-    Created: Mon Apr 09 06:25:24 +0000 2018
-********************************************************************************
-19. Tweet: What was never lost can never be found. ― Zen Proverb
-    Created: Mon Apr 09 06:24:49 +0000 2018
-********************************************************************************
-20. Tweet: Nothing ever goes away until it has taught us what we need to know.
-- Pema Chödrön
-    Created: Mon Apr 09 06:24:02 +0000 2018
-********************************************************************************
-
-********************************** MY TWEETS ***********************************
-1. Tweet: Prefer to be defeated in the presence of the wise than to excel among fools. ― Dōgen Zenji
-    Created: Mon Apr 09 06:36:52 +0000 2018
-********************************************************************************
-2. Tweet: Have a mind that is open to everything and attached to nothing. ― Tilopa
-    Created: Mon Apr 09 06:35:50 +0000 2018
-********************************************************************************
-3. Tweet: Let go, or be dragged. ― Zen Proverb
-    Created: Mon Apr 09 06:34:16 +0000 2018
-********************************************************************************
-4. Tweet: When the student is ready, the teacher will appear. ― Zen Proverb
-    Created: Mon Apr 09 06:32:35 +0000 2018
-********************************************************************************
-5. Tweet: The purpose of our lives is to be happy. ― Dalai Lama
-    Created: Mon Apr 09 06:31:56 +0000 2018
-********************************************************************************
-6. Tweet: Move and the way will open. ― Zen Proverb
-    Created: Mon Apr 09 06:30:46 +0000 2018
-********************************************************************************
-7. Tweet: Each morning, we are born again. What we do today is what matters most. ― Buddha
-    Created: Mon Apr 09 06:30:29 +0000 2018
-********************************************************************************
-8. Tweet: To a mind that is still, the whole universe surrenders. ― Chuang Tzu
-    Created: Mon Apr 09 06:30:11 +0000 2018
-********************************************************************************
-9. Tweet: The trouble is, you think you have time. ― Buddha
-    Created: Mon Apr 09 06:29:52 +0000 2018
-********************************************************************************
-10. Tweet: When you seek it, you cannot find it. ― Zen Proverb
-    Created: Mon Apr 09 06:29:35 +0000 2018
-********************************************************************************
-11. Tweet: When I let go of what I am, I become what I might be. ― Lao Tzu
-    Created: Mon Apr 09 06:28:57 +0000 2018
-********************************************************************************
-12. Tweet: Act without expectation. - Lao Tzu
-    Created: Mon Apr 09 06:28:48 +0000 2018
-********************************************************************************
-13. Tweet: Be master of mind rather than mastered by mind. ― Zen Proverb
-    Created: Mon Apr 09 06:27:46 +0000 2018
-********************************************************************************
-14. Tweet: All that we are, is the result of what we have thought. The mind is everything. What we think, we become. ― Buddha
-    Created: Mon Apr 09 06:27:25 +0000 2018
-********************************************************************************
-15. Tweet: Don't seek, don't search, don't ask, don't knock, don't demand - relax. ― Osho
-    Created: Mon Apr 09 06:26:56 +0000 2018
-********************************************************************************
-16. Tweet: Life is like stepping onto a boat which is about to sail out to sea and sink. ― Shunryu Suzuki
-    Created: Mon Apr 09 06:26:39 +0000 2018
-********************************************************************************
-17. Tweet: If you are depressed, you are living in the past. If you are anxious, you are living in the future. If you are at p… https://t.co/K00psJ9zgn
-    Created: Mon Apr 09 06:26:18 +0000 2018
-********************************************************************************
-18. Tweet: Those who are awake, live in a state of constant amazement. ― Buddha
-    Created: Mon Apr 09 06:25:24 +0000 2018
-********************************************************************************
-19. Tweet: What was never lost can never be found. ― Zen Proverb
-    Created: Mon Apr 09 06:24:49 +0000 2018
-********************************************************************************
-20. Tweet: Nothing ever goes away until it has taught us what we need to know.
-- Pema Chödrön
-    Created: Mon Apr 09 06:24:02 +0000 2018
-********************************************************************************
-
-********************************** MOVIE THIS **********************************
-Title: Mr. Nobody
-Release Year: 2009
-IMDB Rating: 7.9
-Rotten Tomatoes Rating: 66%
-Country movie produced in: Belgium, Germany, Canada, France, USA, UK
-Language: English, Mohawk
-Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
-Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
-********************************************************************************
 
 ****************************** SPOTIFY THIS SONG *******************************
-Artist: Ace of Base
-Song title: The Sign
-Album name: The Sign (US Album) [Remastered]
-URL Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=88304a25695d46129c436ee09b290a09
-********************************************************************************
-
-****************************** SPOTIFY THIS SONG *******************************
-Artist: Caroline's Spine
-Song title: Work Song
-Album name: Attention Please
-URL Preview: null
+Artist: Ulf Ljusberg
+Song title: Whatever Was
+Album name: Unleash | Slither | Verdure | S.F.A.F. 03
+URL Preview: https://p.scdn.co/mp3-preview/d79aee4e1b4f090b1ec0145e321cc47221a02c31?cid=88304a25695d46129c436ee09b290a09
 ********************************************************************************
 
 ****************************** SPOTIFY THIS SONG *******************************
 Spotify could not find a song with that title. Please try Again.
-********************************************************************************
-
-****************************** SPOTIFY THIS SONG *******************************
-Artist: Caroline's Spine
-Song title: Work Song
-Album name: Attention Please
-URL Preview: null
-********************************************************************************
-
-********************************** MY TWEETS ***********************************
-1. Tweet: Prefer to be defeated in the presence of the wise than to excel among fools. ― Dōgen Zenji
-    Created: Mon Apr 09 06:36:52 +0000 2018
-********************************************************************************
-2. Tweet: Have a mind that is open to everything and attached to nothing. ― Tilopa
-    Created: Mon Apr 09 06:35:50 +0000 2018
-********************************************************************************
-3. Tweet: Let go, or be dragged. ― Zen Proverb
-    Created: Mon Apr 09 06:34:16 +0000 2018
-********************************************************************************
-4. Tweet: When the student is ready, the teacher will appear. ― Zen Proverb
-    Created: Mon Apr 09 06:32:35 +0000 2018
-********************************************************************************
-5. Tweet: The purpose of our lives is to be happy. ― Dalai Lama
-    Created: Mon Apr 09 06:31:56 +0000 2018
-********************************************************************************
-6. Tweet: Move and the way will open. ― Zen Proverb
-    Created: Mon Apr 09 06:30:46 +0000 2018
-********************************************************************************
-7. Tweet: Each morning, we are born again. What we do today is what matters most. ― Buddha
-    Created: Mon Apr 09 06:30:29 +0000 2018
-********************************************************************************
-8. Tweet: To a mind that is still, the whole universe surrenders. ― Chuang Tzu
-    Created: Mon Apr 09 06:30:11 +0000 2018
-********************************************************************************
-9. Tweet: The trouble is, you think you have time. ― Buddha
-    Created: Mon Apr 09 06:29:52 +0000 2018
-********************************************************************************
-10. Tweet: When you seek it, you cannot find it. ― Zen Proverb
-    Created: Mon Apr 09 06:29:35 +0000 2018
-********************************************************************************
-11. Tweet: When I let go of what I am, I become what I might be. ― Lao Tzu
-    Created: Mon Apr 09 06:28:57 +0000 2018
-********************************************************************************
-12. Tweet: Act without expectation. - Lao Tzu
-    Created: Mon Apr 09 06:28:48 +0000 2018
-********************************************************************************
-13. Tweet: Be master of mind rather than mastered by mind. ― Zen Proverb
-    Created: Mon Apr 09 06:27:46 +0000 2018
-********************************************************************************
-14. Tweet: All that we are, is the result of what we have thought. The mind is everything. What we think, we become. ― Buddha
-    Created: Mon Apr 09 06:27:25 +0000 2018
-********************************************************************************
-15. Tweet: Don't seek, don't search, don't ask, don't knock, don't demand - relax. ― Osho
-    Created: Mon Apr 09 06:26:56 +0000 2018
-********************************************************************************
-16. Tweet: Life is like stepping onto a boat which is about to sail out to sea and sink. ― Shunryu Suzuki
-    Created: Mon Apr 09 06:26:39 +0000 2018
-********************************************************************************
-17. Tweet: If you are depressed, you are living in the past. If you are anxious, you are living in the future. If you are at p… https://t.co/K00psJ9zgn
-    Created: Mon Apr 09 06:26:18 +0000 2018
-********************************************************************************
-18. Tweet: Those who are awake, live in a state of constant amazement. ― Buddha
-    Created: Mon Apr 09 06:25:24 +0000 2018
-********************************************************************************
-19. Tweet: What was never lost can never be found. ― Zen Proverb
-    Created: Mon Apr 09 06:24:49 +0000 2018
-********************************************************************************
-20. Tweet: Nothing ever goes away until it has taught us what we need to know.
-- Pema Chödrön
-    Created: Mon Apr 09 06:24:02 +0000 2018
 ********************************************************************************
 
 ****************************** SPOTIFY THIS SONG *******************************
