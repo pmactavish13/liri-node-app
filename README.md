@@ -1,4 +1,4 @@
-A runthrough of the app can be found on you-tube: https://youtu.be/tvm-KYEGPdE
+A runthrough of the app can be found on YouTube: https://youtu.be/RBazTywJl4g
 
 # liri-node-app
 LIRI (Language_ Interpretation and Recognition Interface) -command line node app that takes in parameters and gives you back data from SPOTIFYapi, IMDBapi and TWITTERapi 
